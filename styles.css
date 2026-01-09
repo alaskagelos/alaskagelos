@@ -511,19 +511,19 @@ footer {
         grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
-footer {
-    background: rgba(0, 151, 167, 0.9);
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0.9rem;
-    border-radius: 20px;
-    max-width: 1100px;
-    width: 100%;
-    margin: 2.4rem auto 1.5rem;
-    box-shadow: 0 8px 30px rgba(0, 151, 167, 0.25);
-    font-weight: 500;
-    font-size: 0.98rem; /* Ajuste para altura menor */
-}
+
+    footer {
+        background: rgba(0, 151, 167, 0.9);
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0.9rem;
+        border-radius: 20px;
+        max-width: 1100px;
+        width: 100%;
+        margin: 2.4rem auto 1.5rem;
+        box-shadow: 0 8px 30px rgba(0, 151, 167, 0.25);
+        font-weight: 500;
+        font-size: 0.98rem; /* Ajuste para altura menor */
     }
 
     .benefits {
