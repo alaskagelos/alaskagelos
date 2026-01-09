@@ -6,13 +6,36 @@
     <meta name="description" content="Alaska - Distribuidora de Gelo. Os melhores preços em gelo para sua empresa.">
     <meta name="theme-color" content="#0097a7">
     <title>Alaska - Distribuidora de Gelo</title>
+    <link rel="icon" href="logodaempresa.jpg" type="image/jpeg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="topbar">
+        <div class="topbar-content">
+            <span class="contact-item">☎ (37) 99907-7865</span>
+            <span class="separator">•</span>
+            <a class="contact-item" href="mailto:distribuidoradegeloalaska@gmail.com">distribuidoradegeloalaska@gmail.com</a>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <img src="logodaempresa.jpg" alt="Logo Alaska - Distribuidora de Gelo" loading="lazy">
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-link active" href="#">Home</a></li>
+                <li><a class="nav-link" href="#produtos">Produtos</a></li>
+                <li><a class="nav-link" href="#empresa">A Empresa</a></li>
+                <li><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="page-grid">
         <div class="page-main">
             <header>
-                <img src="logodaempresa.jpg" alt="Logo Alaska - Distribuidora de Gelo" class="logo">
+                <img src="gelo_em_cubo-7.png" alt="Gelo em cubos" class="logo">
                 <div class="pedido-row">
                     <div class="pedido-text">
                         <div class="pedido-txt">Faça seu pedido!</div>
@@ -23,7 +46,7 @@
                     </a>
                 </div>
             </header>
-            <section class="pacotes-row">
+            <section id="produtos" class="pacotes-row">
                 <a href="https://wa.me/5537999077865?text=Olá,%20gostaria%20de%20adiquirir%20o%20pacote%20de%203%20Kg." target="_blank" class="pacote-link">
                     <div class="pacote">
                         <img src="pacotetres.jpeg" alt="Pacote de gelo em cubo 3kg">
@@ -51,7 +74,7 @@
             </section>
         </div>
         <aside class="sidebar">
-            <section class="benefits">
+            <section id="empresa" class="benefits">
                 <div class="benefits-header">
                     <h2>Por que escolher o Gelo Alaska?</h2>
                     <p class="benefits-subtitle">Conheça os diferenciais que garantem qualidade, segurança e praticidade.</p>
@@ -93,11 +116,17 @@
             </section>
         </aside>
     </div>
-    <div class="gelo-banner">
-        <img src="gelo_em_cubo-7.png" alt="Gelo em cubos" class="gelo-banner-img">
-    </div>
-    <footer>
-        <p>&copy; 2026 Alaska Distribuidora de Gelo. Todos os direitos reservados.</p>
+    <footer id="contato">
+        <p>
+            &copy; 2026 Alaska Distribuidora de Gelo. Todos os direitos reservados. |
+            Tel: <a href="tel:+5537999077865" aria-label="Telefone para contato" class="footer-phone">(37) 99907-7865</a> |
+            <a class="footer-social" href="https://www.instagram.com/alaskadistribuidoradegelo?igsh=bnQ2dHV5NzBucDhw" target="_blank" rel="noopener" aria-label="Instagram Alaska Distribuidora de Gelo">
+                <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 2.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zm4.75-3.75a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"></path>
+                </svg>
+                Instagram
+            </a>
+        </p>
     </footer>
 </body>
 </html>
